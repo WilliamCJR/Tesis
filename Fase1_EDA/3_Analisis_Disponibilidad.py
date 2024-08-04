@@ -15,7 +15,7 @@ sns.lineplot(data=data, x='ANNO', y='PORCENTAJE_DISPONIBILIDAD', marker='o', pal
 plt.title('ANNO vs PORCENTAJE_DISPONIBILIDAD')
 plt.xlabel('Año')
 plt.ylabel('Porcentaje de Disponibilidad')
-plt.ylim(98.4, 98.6)
+plt.ylim(98.3, 98.4)
 plt.show()
 
 meses_dict = {
@@ -49,7 +49,7 @@ sns.lineplot(data=data, x='MES', y='PORCENTAJE_DISPONIBILIDAD', marker='o', pale
 plt.title('MES vs PORCENTAJE_DISPONIBILIDAD')
 plt.xlabel('Mes')
 plt.ylabel('Porcentaje de Disponibilidad')
-plt.ylim(98.4, 98.6)
+plt.ylim(98.3, 98.4)
 plt.xticks(rotation=45)  # Rotar etiquetas de los meses para mejor legibilidad
 plt.show()
 
@@ -76,7 +76,7 @@ plt.title('EMPRESA vs PORCENTAJE_DISPONIBILIDAD')
 plt.xlabel('Empresa')
 plt.ylabel('Porcentaje de Disponibilidad')
 plt.xticks(rotation=45)  # Rotar etiquetas de los meses para mejor legibilidad
-plt.ylim(98.4, 98.6)
+plt.ylim(98.3, 98.4)
 plt.show()
 
 
@@ -105,7 +105,7 @@ plt.title('TECNOLOGIA vs PORCENTAJE_DISPONIBILIDAD')
 plt.xlabel('Tecnologia')
 plt.ylabel('Porcentaje de Disponibilidad')
 plt.xticks(rotation=45)  # Rotar etiquetas de los meses para mejor legibilidad
-plt.ylim(98.4, 98.6)
+plt.ylim(97, 99)
 plt.show()
 
 
@@ -129,5 +129,5 @@ plt.title('MUNICIPIO vs PORCENTAJE_DISPONIBILIDAD')
 plt.xlabel('Municipio')
 plt.ylabel('Porcentaje de Disponibilidad')
 plt.xticks(rotation=45)  # Rotar etiquetas de los meses para mejor legibilidad
-plt.ylim(98.4, 98.6)
+plt.ylim(98.3, 98.4)
 plt.show()

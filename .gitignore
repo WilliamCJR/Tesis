@@ -1,1 +1,2 @@
 *.csv
+!DatosFiltradosDisponibilidad.csv
